@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.country {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 0 0;
+}
+.country input[name="name"]{
+    border: none;
+    border-bottom: 1px solid #000;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin: 20px 0 0 0;
+}
+.country .send {
+    text-transform: uppercase;
+    padding: 5px 20px;
+    border: none;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 30px 0 0 0;
+    background-color: transparent;
+}
+.wraper {
+    margin: 50px 0 0 0;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+.add {
+    text-align: center;
+    line-height: 30px;
+    padding: 20px 30px;
+}
+.img {
+    width: 200px;
+    height: 100px;
+    border-radius: 5px;
+}
